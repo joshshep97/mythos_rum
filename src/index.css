@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Agrandir;
+    src: url(./assets/Agrandir-Regular.otf);
+}
+
+* {
+    font-family: Agrandir;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+/* colors */
+
+--black: hsla(0, 0%, 0%, 1);
+--platinum: hsla(0, 0%, 90%, 1);
+--night: hsla(80, 9%, 7%, 1);
+--citron: hsla(69, 47%, 65%, 1);
+--silver: hsla(0, 0%, 74%, 1);
+}

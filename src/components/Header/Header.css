@@ -1,0 +1,30 @@
+header {
+    background-color: var(--black);
+    color: var(--platinum);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 1rem 1rem;
+}
+
+.header__links {
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    list-style: none;
+}
+
+.header__links li {
+    padding: 1rem 1.7rem;
+}
+
+.header__links a {
+    color: var(--platinum);
+    text-decoration: none;
+    transition: all .5s; 
+}
+.header__links a:hover {
+    border-bottom: 1px solid var(--citron);
+    color: var(--silver);
+}
