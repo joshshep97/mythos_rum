@@ -11,37 +11,35 @@ const PinnedProduct = () => {
   }
 
   return (
-    <div className='section'>
-      <h2 className='about__heading'>
-        Our Picks for you
-      </h2>
-      <section className="pinned__wrapper">
-      <article className='pinned'>
-      <h3>{product.name}</h3>
-      <p className='pinned__paragraph'>
-        {product.desc}
-      </p>
-      <h4>
-        £{product.price}
-      </h4>
-      <button className="btn_primary pinned__btn">
-        Buy Now
-      </button>
-    </article>
-    <article className='pinned'>
-      <h3>{product.name}</h3>
-      <p className='pinned__paragraph'>
-        {product.desc}
-      </p>
-      <h4>
-        £{product.price}
-      </h4>
-      <button className="btn_primary pinned__btn">
-        Buy Now
-      </button>
-    </article>
+    <section className='pinned'>
+      <h2 className='pinned__heading'>Our Picks for You</h2>
+      <section className='pinned__wrapper'>
+        <article className='pin'>
+          <h3 className='pin__title'>
+            {product.name}
+          </h3>
+          <p className='pin__desc'>
+            {product.desc}
+          </p>
+          <h4 className='pin__price'>
+            £{product.price}
+          </h4>
+          <button className='btn_primary'>Buy Now</button>
+        </article>
+        <article className='pin'>
+          <h3 className='pin__title'>
+            {product.name}
+          </h3>
+          <p className='pin__desc'>
+            {product.desc}
+          </p>
+          <h4 className='pin__price'>
+            £{product.price}
+          </h4>
+          <button className='btn_primary'>Buy Now</button>
+        </article>
+      </section>
     </section>
-    </div>
   )
 }
 

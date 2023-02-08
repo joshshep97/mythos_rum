@@ -33,7 +33,9 @@ button.btn_primary {
     border-radius: 5%;
     cursor: pointer;
     transition:all .6s;
-    background-color: var(--silver);
+    background-color: var(--night);
+    color: var(--platinum);
+    border: 1px solid var(--platinum);
 } button.btn_primary:hover {
     background-color: var(--citron);
     color: var(--night)
@@ -43,4 +45,8 @@ button.btn_primary {
     font-size: 2rem;
     letter-spacing: 0.2rem;
     color: var(--black);
+}
+
+.pin__btn {
+    align-self: center;
 }

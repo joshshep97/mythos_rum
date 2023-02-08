@@ -1,45 +1,37 @@
-.section {
-    padding: 3rem;
-}
-
 .pinned {
-    padding: 3rem 5rem 3rem 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    max-height: 80vh;
-    text-align: center;
+    padding: 2rem 3rem;
 }
 
-.pinned__title {
-    text-align: center;
-    padding: 1rem 0 0 0;
+.pinned__heading {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    color: var(--black);
 }
 
 .pinned__wrapper {
     display: flex;
 }
-.pinned {
+
+.pin {
     width: 50%;
+    padding: 1rem .5rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    padding: 1rem 3rem;
-} .pinned__paragraph {
+}
+
+.pin__title {
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+}
+
+.pin__desc {
     font-size: 1.2rem;
-    letter-spacing: 0.1rem;
-    align-self: flex-start;
-}.pinned h3 {
-    padding: 1rem 0;
-    font-size: 1.3rem;
-    letter-spacing: 0.15rem;
-} .pinned h4 {
+    letter-spacing: .15rem;
+    padding: 1rem 0 0 0;
+}
+
+.pin__price {
     font-size: 1.8rem;
-    padding: 1rem;
-    align-self: center;
-} .pinned__btn {
-    align-self: center;
+    align-self: flex-end;
 }
 
