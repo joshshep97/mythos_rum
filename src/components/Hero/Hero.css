@@ -1,0 +1,46 @@
+.hero {
+    background-color: var(--black);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4rem 1rem;
+    text-align: center;
+} .hero__left h2 {
+    color: var(--platinum);
+    letter-spacing: .2rem;
+    margin: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+} .hero__left h3 {
+    color: var(--silver);
+    letter-spacing: .2rem;
+    margin: 2rem;
+    font-size: 1.3rem;
+}
+.hero__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__left-ctas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} .hero__left-ctas button {
+    padding: .6rem 3rem;
+    font-size: 1.1rem;
+    border-radius: 5%;
+    cursor: pointer;
+    transition:all .6s;
+    background-color: var(--silver);
+} .hero__left-ctas button:hover {
+    background-color: var(--citron);
+    color: var(--night)
+}
