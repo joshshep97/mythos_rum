@@ -1,0 +1,18 @@
+.about {
+    padding: 3rem 3rem 2rem 3rem;
+    border-bottom: 1px solid var(--silver);
+    border-top: 1px solid var(--silver);
+}
+
+.about__heading {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    color: var(--black);
+}
+
+.about__paragraph {
+    padding: 1rem 3rem 1rem 0;
+    font-size: 1.4rem;
+    letter-spacing: .15rem;
+    color: var(--night);
+}

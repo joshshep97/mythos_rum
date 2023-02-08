@@ -1,4 +1,9 @@
 .hero {
+    /* background:-moz-radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%);
+    background:-webkit-radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%);
+    background:-o-radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%);
+    background:-ms-radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%);
+    background:radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%); */
     background-color: var(--black);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -27,7 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 .hero__left-ctas {
     display: flex;
@@ -43,4 +48,14 @@
 } .hero__left-ctas button:hover {
     background-color: var(--citron);
     color: var(--night)
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
 }
