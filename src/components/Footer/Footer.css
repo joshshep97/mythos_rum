@@ -1,0 +1,18 @@
+.footer {
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer__social {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer__copy-p {
+    color: var(--platinum)
+}

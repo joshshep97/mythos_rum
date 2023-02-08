@@ -24,7 +24,7 @@ const PinnedProduct = () => {
           <h4 className='pin__price'>
             £{product.price}
           </h4>
-          <button className='btn_primary'>Buy Now</button>
+          <button className='btn_primary pin__btn'>Buy Now</button>
         </article>
         <article className='pin'>
           <h3 className='pin__title'>
@@ -36,7 +36,7 @@ const PinnedProduct = () => {
           <h4 className='pin__price'>
             £{product.price}
           </h4>
-          <button className='btn_primary'>Buy Now</button>
+          <button className='btn_primary pin__btn'>Buy Now</button>
         </article>
       </section>
     </section>

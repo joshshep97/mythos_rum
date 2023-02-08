@@ -48,5 +48,5 @@ button.btn_primary {
 }
 
 .pin__btn {
-    align-self: center;
+    align-self: flex-start;
 }
