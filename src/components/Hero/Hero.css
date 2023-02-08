@@ -38,17 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-} .hero__left-ctas button {
-    padding: .6rem 3rem;
-    font-size: 1.1rem;
-    border-radius: 5%;
-    cursor: pointer;
-    transition:all .6s;
-    background-color: var(--silver);
-} .hero__left-ctas button:hover {
-    background-color: var(--citron);
-    color: var(--night)
-}
+} 
 
 @keyframes rotate {
     from {

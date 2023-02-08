@@ -19,3 +19,28 @@
 --citron: hsla(69, 47%, 65%, 1);
 --silver: hsla(0, 0%, 74%, 1);
 }
+
+.about__paragraph {
+    padding: 1rem 3rem 1rem 0;
+    font-size: 1.4rem;
+    letter-spacing: .15rem;
+    color: var(--night);
+}
+
+button.btn_primary {
+    padding: .6rem 3rem;
+    font-size: 1.1rem;
+    border-radius: 5%;
+    cursor: pointer;
+    transition:all .6s;
+    background-color: var(--silver);
+} button.btn_primary:hover {
+    background-color: var(--citron);
+    color: var(--night)
+}
+
+.about__heading {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    color: var(--black);
+}

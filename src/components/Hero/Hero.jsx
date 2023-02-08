@@ -15,7 +15,7 @@ const Hero = () => {
         </h3>
         </div>
         <div className="hero__left-ctas">
-        <button className="btn btn-primary">Buy Now</button>
+        <button className="btn btn_primary">Buy Now</button>
         </div>
       </article>
       <article className="hero__right">
