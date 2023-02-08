@@ -12,7 +12,7 @@ const PinnedProduct = () => {
 
   return (
     <section className='pinned'>
-      <h2 className='pinned__heading'>Our Picks for You</h2>
+      <h2 className='__heading'>Our Picks for You</h2>
       <section className='pinned__wrapper'>
         <article className='pin'>
           <h3 className='pin__title'>

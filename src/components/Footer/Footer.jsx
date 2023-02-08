@@ -13,17 +13,17 @@ const Footer = () => {
         <a href='/'>
           <BsFacebook
           color='#fff'
-          font-size={36} />
+          font-size={28} />
         </a>
         <a href='/'>
           <BsTwitter
           color='#fff'
-          font-size={36} />
+          font-size={28} />
         </a>
         <a href='/'>
           <BsInstagram
           color='#fff'
-          font-size={36} />
+          font-size={28} />
         </a>
       </section>
       <section className='footer__copy'>

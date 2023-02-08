@@ -1,7 +1,21 @@
+/* Fonts */
 @font-face {
     font-family: Agrandir;
     src: url(./assets/Agrandir-Regular.otf);
 }
+
+/* Variables */
+
+:root {
+/* colors */
+--black: hsla(0, 0%, 0%, 1);
+--platinum: hsla(0, 0%, 90%, 1);
+--night: hsla(80, 9%, 7%, 1);
+--citron: hsla(69, 47%, 65%, 1);
+--silver: hsla(0, 0%, 74%, 1);
+}
+
+/* Global Styles */
 
 * {
     font-family: Agrandir;
@@ -10,43 +24,53 @@
     padding: 0;
 }
 
-:root {
-/* colors */
-
---black: hsla(0, 0%, 0%, 1);
---platinum: hsla(0, 0%, 90%, 1);
---night: hsla(80, 9%, 7%, 1);
---citron: hsla(69, 47%, 65%, 1);
---silver: hsla(0, 0%, 74%, 1);
-}
-
-.about__paragraph {
+.__paragraph {
     padding: 1rem 3rem 1rem 0;
     font-size: 1.4rem;
     letter-spacing: .15rem;
     color: var(--night);
 }
 
-button.btn_primary {
-    padding: .6rem 3rem;
-    font-size: 1.1rem;
-    border-radius: 5%;
-    cursor: pointer;
-    transition:all .6s;
-    background-color: var(--night);
-    color: var(--platinum);
-    border: 1px solid var(--platinum);
-} button.btn_primary:hover {
-    background-color: var(--citron);
-    color: var(--night)
-}
-
-.about__heading {
+.__heading {
     font-size: 2rem;
     letter-spacing: 0.2rem;
     color: var(--black);
 }
 
-.pin__btn {
-    align-self: flex-start;
+/* Global Reusables */
+
+button.btn_primary {
+  padding: .6rem 3rem;
+  font-size: 1.1rem;
+  border-radius: 5%;
+  cursor: pointer;
+  transition:background-color .6s;
+  background-color: var(--night);
+  color: var(--platinum);
+  border: 1px solid var(--platinum);
+} button.btn_primary:hover {
+  background-color: var(--citron);
+  color: var(--night);
+  border: 2px solid var(--night); 
 }
+
+/* Additional Features */
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--night);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--silver);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--citron);
+  }
