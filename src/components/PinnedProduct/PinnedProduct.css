@@ -45,5 +45,7 @@
     }
     .pin {
         width: 100%;
+        border-bottom: 1px solid var(--silver);
+        padding: 2rem 0;
     }
 }
