@@ -6,6 +6,7 @@ header {
     justify-content:space-between;
     align-items:center;
     padding: 1rem 4rem;
+    z-index: 2;
 }
 
 .header__links {
@@ -31,6 +32,7 @@ header {
 
 .header__mobile-toggle {
     display: none;
+    z-index: 1;
 }
 
 .header__mobile-nav {

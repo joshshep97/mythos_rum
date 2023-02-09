@@ -45,9 +45,30 @@
     
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .hero {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
+} */
+
+@media screen and (max-width: 768px) {
+    .hero {
+        display: block;
+    }
+    .hero__right {
+        display: none;
+    }
+    .hero::before {    
+        content: "";
+        background-image: url('../../assets/mythos_rum_logo.png');
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.5;
+        height: 10rem;
+  }
 }
