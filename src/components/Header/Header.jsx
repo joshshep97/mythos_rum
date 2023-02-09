@@ -35,7 +35,9 @@ const Header = () => {
         <BiMenuAltRight fontSize={26} 
         // functionality
         onClick={() => {
-          if (document.querySelector('.header__mobile-nav').style.display === 'none'){
+          if (
+            document.querySelector('.header__mobile-nav').style.display === 'none'
+            ){
             document.querySelector('.header__mobile-nav').style.display = 'flex'
           } else {
             document.querySelector('.header__mobile-nav').style.display = 'none'

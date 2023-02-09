@@ -1,9 +1,4 @@
 .hero {
-    /* background:-moz-radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%);
-    background:-webkit-radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%);
-    background:-o-radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%);
-    background:-ms-radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%);
-    background:radial-gradient(circle at 0% 70%, #BDBDBD 0%, #000000 21%); */
     background-color: var(--black);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -48,4 +43,11 @@
         transform: rotate(360deg);
     }
     
+}
+
+@media (max-width: 768px) {
+    .hero {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
 }

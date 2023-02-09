@@ -40,7 +40,6 @@ header {
     justify-content:space-evenly;
     list-style: none;
     background-color: var(--platinum);
-    transition: all 3s;
 } .header__mobile-nav li {
     padding: 1rem 5rem;
     border-bottom: 1px solid var(--silver);
