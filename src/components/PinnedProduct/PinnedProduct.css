@@ -38,3 +38,12 @@
 .pin__btn {
     align-self: flex-start;
 }
+
+@media screen and (max-width: 768px) {
+    .pinned__wrapper {
+        flex-direction: column;
+    }
+    .pin {
+        width: 100%;
+    }
+}

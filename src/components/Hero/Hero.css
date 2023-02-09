@@ -59,16 +59,4 @@
     .hero__right {
         display: none;
     }
-    .hero::before {    
-        content: "";
-        background-image: url('../../assets/mythos_rum_logo.png');
-        background-size: cover;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        opacity: 0.5;
-        height: 10rem;
-  }
 }

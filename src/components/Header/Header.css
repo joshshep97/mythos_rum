@@ -18,6 +18,7 @@ header {
 
 .header__links li {
     padding: 1rem 2.5rem;
+    z-index: 1;
 }
 
 .header__links a {
