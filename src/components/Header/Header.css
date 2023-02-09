@@ -29,3 +29,32 @@ header {
     color: var(--silver);
 }
 
+.header__mobile-toggle {
+    display: none;
+}
+
+.header__mobile-nav {
+    display: none;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    list-style: none;
+    background-color: var(--platinum);
+    transition: all 3s;
+} .header__mobile-nav li {
+    padding: 1rem 5rem;
+    border-bottom: 1px solid var(--silver);
+} .header__mobile-nav a {
+    color: var(--black);
+    text-decoration: none;
+} 
+
+@media (max-width: 768px) {
+    .header__links{
+        display: none;
+    }
+    .header__mobile-toggle {
+        display: block;
+        cursor: pointer;
+    }
+}
