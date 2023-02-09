@@ -22,3 +22,13 @@
 .footer a:hover {
     border-bottom: 1px solid var(--citron)
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        padding-bottom: 1rem;;
+    }
+    .footer__social a {
+        padding: 0 2rem;
+    }
+}
