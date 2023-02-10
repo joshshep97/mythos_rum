@@ -1,9 +1,7 @@
 import React from 'react';
-import Header from './components/Header/Header'
-import Hero from './components/Hero/Hero'
-import About from './components/About/About'
-import PinnedProduct from './components/PinnedProduct/PinnedProduct'
-import Footer from './components/Footer/Footer'
+
+// import all components from container
+import {About, Footer, Header, Hero, PinnedProduct} from './components/container'
 
 const App = () => {
     return (
